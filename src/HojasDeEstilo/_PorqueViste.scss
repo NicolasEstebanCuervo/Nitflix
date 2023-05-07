@@ -1,0 +1,147 @@
+.contenedor_principal_pelicula{
+  padding: 0 50px;
+  margin-top: 50px;
+
+  .contenedor_pelicula{
+    display: flex;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 1200px;
+    border-radius: 20px;
+    background: #111111;
+    -webkit-box-shadow: 1px -1px 12px 0px rgba(112,112,112,1);
+    -moz-box-shadow: 1px -1px 12px 0px rgba(112,112,112,1);
+    box-shadow: 1px -1px 12px 0px rgba(112,112,112,1);      
+  
+    .imagen_tendencia{
+      max-width: 300px;
+      width: 100%;
+      max-height: 360px;
+      height: auto;
+      border-radius: 20px;
+      padding: 0 20px;
+    }
+  
+    .div_textos{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+      max-width: 550px;
+  
+      .titulo{
+        font-size: 40px;
+        color: #fff;
+        text-decoration: none;
+        transition: font-size 0.1s;
+  
+        &:hover{
+          opacity: 0.7;
+        }
+      }
+  
+      .div_extras{
+        margin: 10px 0;
+  
+        h5{
+          display: inline;
+          margin: 0 5px;
+          font-size: 15px;
+        }
+    
+        .valoracion{
+          color: #90E895;
+        }
+    
+        .calidad{
+          padding: 5px;
+          border: 1px solid gray;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px){
+  .contenedor_principal_pelicula{
+    padding: 0 10px;
+    text-align: center;
+
+    h1{
+      font-size: 7vw;    
+    }
+  
+    .contenedor_pelicula{   
+      max-width: 600px;
+      flex-direction: column;
+      box-shadow: none;
+      padding: 50px 0;
+
+      .imagen_tendencia{
+        margin: auto;
+      }
+    
+      .div_textos{
+        padding:0 10%;
+        text-align: left;
+        .titulo{
+          font-size:5vw;
+
+          &:hover{
+            opacity: 0.7;
+          }
+        }
+    
+        .div_extras{
+          margin: 0;
+          h5{
+            font-size:2vw;
+          }
+      
+          .calidad{
+            padding: 1px;
+          }
+        }
+
+        p{
+          font-size: 2vw;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px){
+  .contenedor_principal_pelicula{
+
+    .contenedor_pelicula{   
+      .div_textos{
+        .titulo{
+          font-size:5vw;
+
+          &:hover{
+            opacity: 0.7;
+          }
+        }
+    
+        .div_extras{
+          margin: 0;
+          h5{
+            font-size:3vw;
+          }
+      
+          .calidad{
+            padding: 1px;
+          }
+        }
+
+        p{
+          font-size: 3.5vw;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

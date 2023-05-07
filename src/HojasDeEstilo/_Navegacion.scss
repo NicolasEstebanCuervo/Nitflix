@@ -1,0 +1,85 @@
+// Estilos Nav
+
+.nav{
+  padding: 50px 0;
+
+  .imagen_logo{
+    width: 350px;
+  }
+
+  .navbar-collapse{
+    justify-content: right;
+  }
+
+  .links{
+    border-bottom: 2px solid transparent; 
+    transition: border-color 0.5s ease;
+    padding-bottom: 10px;
+    color: #fff;
+    &:hover{
+      border-color: #ff0000;
+    }
+  }
+
+  .navbar-nav .nav-link.active{
+    color: #fff;
+  }
+}
+
+@media (max-width: 1200px) {
+  .links{
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px){
+  .nav{
+    .imagen_logo{
+      max-width: 200px;
+      width: 100%;
+    }
+
+    #basic-navbar-nav{
+      margin-top: 20px;
+    }
+
+    .links{
+      width: 100%;
+      &:hover{
+        background:#ff0000;
+        border-color: transparent;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px ){
+  .nav{
+    padding: 2vw;
+
+    .imagen_logo{
+      max-width: 100px;
+      width: 100%;
+    }
+
+    .titulo_navegacion{
+      font-size: 5vw;
+    }
+  
+    .links{
+      font-size: 3vw;
+    }
+  
+    .navbar-toggler{
+      padding: 1vw;
+      font-size: 2vw;
+    }
+  
+    .navbar-toggler-icon{
+      width: 4vw;
+      border: 0;
+    }
+  }
+}
+
+

@@ -1,0 +1,22 @@
+.App{
+  background: #212121;
+  color: #fff;
+}
+
+.peliculas{
+  margin: 50px 0;
+}
+
+.peliculas h1{
+  margin: 5%;
+}
+
+@media (max-width: 1000px){
+  .peliculas{
+    text-align: center;
+  }
+
+  .peliculas h1{
+    font-size: 7vw;
+  }
+}

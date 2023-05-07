@@ -1,0 +1,175 @@
+header {
+  position: relative;
+  margin: auto;
+  max-width: 1800px;
+  margin-top: 30px;
+  
+  // Estilos pelicula y texto de la pelicula
+
+  .contenedor_pelicula {
+    display: flex;
+    justify-content: center;
+
+    video {
+      width: 100%;
+      height: auto;
+      opacity: 0.4;
+      clip-path: inset(0 0 15% 0);
+    }
+  }
+
+  .texto_pelicula {
+    max-width: 40%;
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    transform: translate(0, -50%);
+    color: white;
+
+    img {
+      max-width: 300px;
+      width: 100%;
+    }
+
+    .contenedor_txt_extra {
+      display: flex;
+      align-items: center;
+
+      h5 {
+        margin: 1%;
+        font-size: 25px;
+      }
+
+      .valoracion {
+        color: #90E895;
+      }
+
+      .calidad {
+        padding: 5px;
+        border: 1px solid gray;
+        border-radius: 10px;
+      }
+  }
+
+  p {
+    font-size: 23px;
+  }
+}
+
+  // Estilos del carrusel
+
+  .contenedor_carrusel {
+    position: absolute;
+    width:100%;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, 0);
+    display: flex;
+
+    img{
+      opacity: 0.8;
+      height: auto;
+      margin-right: 10px;
+      
+      &:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  header {
+
+    // Estilos del texto de la pelicula
+
+    .texto_pelicula {
+      max-width: 60%;
+
+      img{
+        max-width: 250px;
+      }
+
+      .contenedor_txt_extra {
+        h5 {
+          font-size: 3vw;
+        }
+
+        .calidad {
+          padding: 1px;
+        }
+      }
+
+      p {
+        font-size: 2vw;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+
+    // Estilos del texto de la pelicula
+
+    .texto_pelicula {
+
+      .contenedor_imagen{
+        max-width: 150px;
+        margin: 0 5vw;
+
+        img{
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+
+    // Estilos del texto de la pelicula
+
+    .texto_pelicula {
+      max-width: 75%;
+
+      .contenedor_imagen{
+        max-width: 90px;
+      }
+
+      p{
+        font-size: 2.5vw;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  header {
+
+    // Estilos del texto de la pelicula
+
+    .texto_pelicula {
+
+      .contenedor_imagen{
+        max-width: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 200px) {
+  header {
+
+    // Estilos del texto de la pelicula
+
+    .texto_pelicula {
+
+      .contenedor_imagen{
+        max-width: 30px;
+      }
+    }
+  }
+}

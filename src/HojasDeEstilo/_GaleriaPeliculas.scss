@@ -1,0 +1,21 @@
+.contenedor_galeria_peliculas{
+  display: flex;
+  height: 430px;
+
+  img {
+    position: relative;
+    max-width: 250px;
+    width: 0;
+    height: auto;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: 0.5s ease;
+  
+    &:hover {
+      cursor: pointer;
+      width: 60%;
+      opacity: 0.5;
+      filter: contrast(120%);
+    }
+  }  
+}   

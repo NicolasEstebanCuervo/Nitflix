@@ -1,0 +1,50 @@
+footer{
+  display: flex;
+  flex-direction: column; 
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px 0;
+
+  img{
+    width: 350px; 
+  }
+
+  i{
+    font-size: 50px;
+    margin: 0px 10px;
+  }
+}
+
+@media (max-width: 992px){
+  footer{
+    img{
+      max-width: 330px;
+      width: 100%;
+    }
+
+    i{
+      font-size: 7vw;
+    }
+
+    h3{
+      font-size: 5vw;
+    }
+  }
+}
+
+@media (max-width: 10px){
+  footer{
+    img{
+      max-width: 150px;
+      width: 100%;
+    }
+
+    i{
+      font-size: 5vw;
+    }
+
+    h3{
+      font-size: 3vw;
+    }
+  }
+}
