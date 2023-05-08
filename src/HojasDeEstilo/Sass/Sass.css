@@ -122,7 +122,6 @@ header .contenedor_carrusel {
 }
 header .contenedor_carrusel img {
   opacity: 0.8;
-  height: auto;
   margin-right: 10px;
 }
 header .contenedor_carrusel img:hover {
