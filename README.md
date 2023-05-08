@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+<div id="Header" align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+   <img src="https://media.giphy.com/media/l6mBchxYZc7Sw/giphy.gif" width="300">   
+   <h1 align="center">Nitflix 📼 - Finalizado</h1>
 
-## Available Scripts
+</div>
+   
+### `💻 Proceso de instalacion usando git clone SSH`
 
-In the project directory, you can run:
+- Abra la terminal de su computador.
+- Entre al directorio de su preferencia usando (cd "nombre del directorio")
+- Si usted tiene una clave SSH ejecute el comando "git clone git@github.com:NicolasEstebanCuervo/News.git"
+- Abra el repositorio clonado en su editor de codigo de preferencia.
+- En la terminal del editor de codigo ejecute el comando "npm start".
 
-### `npm start`
+### `💻 Proceso de instalacion usando git clone HTTPS`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Abra la terminal de su computador.
+- Entre al directorio de su preferencia usando (cd "nombre del directorio")
+- Si usted no tiene una clave SSH tambien puede usar el metodo git clone con HHTTPS. Solamente tiene que ejecutar el comando "git clone https://github.com/NicolasEstebanCuervo/News.git"
+- Abra el repositorio clonado en su editor de codigo de preferencia.
+- En la terminal del editor de codigo ejecute el comando "npm start".
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `💻 Proceso de instalacion usando el archivo .zip`
 
-### `npm test`
+- Descargue el repositorio en el apartado "<>Code" con la opcion "Download ZIP"
+- Dele click derecho y extraer aqui. Espere hasta que el repositorio se haya extraido correctamente.
+- Abra la carpeta que se creo en su editor de codigo de preferencia.
+- En la terminal del editor de codigo ejecute el comando "npm start"
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `❌ Posible error al ejecutar el proyecto`
 
-### `npm run build`
+- Si usted ejecuta el comando "npm start" Y le sale el siguien error "Error: Cannot find module 'react-scripts'" Esto puede ser debido a un error
+en las dependencia del proyecto. Para solucionarlo abra la terminal del proyecto y ejecute el siguiente comando "npm install react-scripts
+".
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+###  📘 Librerias usadas:
+   
+En caso tal de que te interese alguna de las librerias usadas aca te dejo una lista donde puedes encontrarlas:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Bootstrap: npm install bootstrap.
+- Bootstrap icons: npm install botraps-icons.
+- Axios: npm install axios.
+- React Router Dom: npm install react-router-dom.
+- React Slick: npm install react-slick.
+   
