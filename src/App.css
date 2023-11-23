@@ -4,11 +4,15 @@
 }
 
 .peliculas{
-  margin: 50px 0;
+  display: flex;
+  gap: 3vh;
 }
 
-.peliculas h1{
-  margin: 5%;
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 1000px){
@@ -17,6 +21,16 @@
   }
 
   .peliculas h1{
-    font-size: 7vw;
+    font-size: 6vw;
+  }
+}
+
+@media (max-width: 500px){
+  .peliculas{
+    text-align: center;
+  }
+
+  .peliculas h1{
+    font-size: 8vw;
   }
 }

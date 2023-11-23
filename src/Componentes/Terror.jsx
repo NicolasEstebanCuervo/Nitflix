@@ -1,26 +1,28 @@
-// React y hooks
+import React, { useEffect, useState } from "react";
+import { getRandomMediaURL } from "../FuncionesApi/Funciones";
 
-import React,{useEffect, useState} from "react";
+function Terror() {
+    const [terror, setTerror] = useState(null);
 
-// Archivo Js de funciones
+    useEffect(() => {
+        getRandomMediaURL("terror", setTerror);
+    }, []);
 
-import { terrorFnc } from "../FuncionesApi/Funciones";
-
-function Terror (props){
-
-  const [terror,setTerror] = useState(null)
-
-  useEffect(()=>{
-    terrorFnc(setTerror)  
-  },[])
-
-  return(
-    <>
-    {terror != null ? (
-      <img src={terror} />
-    ) : ("no hay personajes ")}
-    </>
-  )
+    return (
+        <>
+            {terror != null ? (
+                <img
+                    src={`https://image.tmdb.org/t/p/w500${terror.poster_path}`}
+                    alt="Serie Poster"
+                    onClick={() => {
+                        window.location.href = `./Movies/${terror.id}`;
+                    }}
+                />
+            ) : (
+                "No hay comedia "
+            )}
+        </>
+    );
 }
 
-export default Terror
+export default Terror;

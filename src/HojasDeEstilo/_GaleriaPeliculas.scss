@@ -1,11 +1,11 @@
 .contenedor_galeria_peliculas{
   display: flex;
   height: 430px;
+  width: 70%;
 
   img {
-    position: relative;
     max-width: 250px;
-    width: 0;
+    width: 0%;
     height: auto;
     flex-grow: 1;
     object-fit: cover;

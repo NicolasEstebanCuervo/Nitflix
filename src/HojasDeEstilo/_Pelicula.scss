@@ -27,6 +27,7 @@ header {
     color: white;
 
     img {
+      cursor: pointer;
       max-width: 300px;
       width: 100%;
     }
@@ -132,10 +133,10 @@ header {
     // Estilos del texto de la pelicula
 
     .texto_pelicula {
-      max-width: 75%;
+      max-width: 100%;
 
       .contenedor_imagen{
-        max-width: 90px;
+        max-width: 120px;
       }
 
       p{

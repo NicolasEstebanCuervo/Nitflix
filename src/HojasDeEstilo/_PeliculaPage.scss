@@ -1,0 +1,72 @@
+.section_pelicula_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.sub_contenedor {
+    display: flex;
+    padding: 5% 0;
+    width: 80%;
+}
+
+.primer_contenedor{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        max-width: 450px;
+    }
+}
+
+.segundo_contenedor{
+    width: 50%;
+}
+
+.contenedor_txt_extra {
+    display: flex;
+    align-items: center;
+
+    h5 {
+        margin: 1%;
+        font-size: 25px;
+    }
+
+    h6{
+        margin: 1%;
+        font-size: 15px;
+    }
+
+    .valoracion {
+        color: #90e895;
+    }
+
+    .calidad {
+        padding: 5px;
+        border: 1px solid gray;
+        border-radius: 10px;
+    }
+
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3%;
+    background: #e4d9d9;
+
+    i{
+        font-size: 25px;
+        color: #252121;
+    }
+}
+

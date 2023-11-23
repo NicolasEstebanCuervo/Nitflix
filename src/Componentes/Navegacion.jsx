@@ -19,16 +19,18 @@ function Navegacion () {
 
   return (
     <Navbar expand="lg" className="nav container">
-      <img className="imagen_logo" src={require("../Imagenes/Nitflix.png")} />
-      <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleClick} />
+      <div className="container_nav">
+        <img className="imagen_logo" onClick={()=>{window.location.href =`/`}} src={require("../Imagenes/Nitflix.png")} />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleClick} />
+      </div>
       <Navbar.Collapse id="basic-navbar-nav" className={`${abierto ? "show" : "centrar"}`}>
-        <Nav className="mr-auto">
-          <Nav.Link href="#Semanal" className="links">Semanal</Nav.Link>
-          <Nav.Link href="#Series" className="links">Series</Nav.Link>
-          <Nav.Link href="#Comedia" className="links">Comedia</Nav.Link>
-          <Nav.Link href="#Animado" className="links">Animado</Nav.Link>
-          <Nav.Link href="#Terror" className="links">Terror</Nav.Link>
-          <Nav.Link href="#Accion" className="links">Accion</Nav.Link>
+        <Nav className="mr-auto container_links">
+          <Nav.Link href="/#Semanal" className="links">Semanal</Nav.Link>
+          <Nav.Link href="/#Series" className="links">Series</Nav.Link>
+          <Nav.Link href="/#Comedia" className="links">Comedia</Nav.Link>
+          <Nav.Link href="/#Animado" className="links">Animado</Nav.Link>
+          <Nav.Link href="/#Terror" className="links">Terror</Nav.Link>
+          <Nav.Link href="/#Accion" className="links">Accion</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

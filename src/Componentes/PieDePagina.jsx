@@ -4,14 +4,14 @@ import React from "react";
 
 function PieDePagina(){
   return(
-    <footer class="container text-center text-white">
+    <footer className="container text-center text-white">
       <img src={require("../Imagenes/Nitflix.png")} />
       <div>
-        <i class="bi bi-linkedin"></i>
-        <i class="bi bi-github"></i>
-        <i class="bi bi-twitter"></i>
+        <i className="bi bi-linkedin"></i>
+        <i className="bi bi-github"></i>
+        <i className="bi bi-twitter"></i>
+        <h3>©Nicolas Rojas 2023 Todos los derechos reservados</h3>
       </div>
-      <h3>©Nicolas Rojas 2023 Todos los derechos reservados</h3>
     </footer>
   )
 }

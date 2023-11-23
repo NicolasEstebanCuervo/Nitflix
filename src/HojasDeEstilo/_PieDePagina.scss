@@ -11,7 +11,7 @@ footer{
 
   i{
     font-size: 50px;
-    margin: 0px 10px;
+    margin: 0px 5px;
   }
 }
 
@@ -23,28 +23,45 @@ footer{
     }
 
     i{
-      font-size: 7vw;
-    }
-
-    h3{
-      font-size: 5vw;
-    }
-  }
-}
-
-@media (max-width: 10px){
-  footer{
-    img{
-      max-width: 150px;
-      width: 100%;
-    }
-
-    i{
-      font-size: 5vw;
+      font-size: 6vw;
     }
 
     h3{
       font-size: 3vw;
+    }
+  }
+}
+
+@media (max-width: 600px){
+  footer{
+    img{
+      max-width: 300px;
+      width: 100%;
+    }
+
+    i{
+      font-size: 9vw;
+    }
+
+    h3{
+      font-size: 4vw;
+    }
+  }
+}
+
+@media (max-width: 350px){
+  footer{
+    img{
+      max-width: 250px;
+      width: 100%;
+    }
+
+    i{
+      font-size: 10vw;
+    }
+
+    h3{
+      font-size: 4vw;
     }
   }
 }

@@ -1,26 +1,28 @@
-// React y hooks
+import React, { useEffect, useState } from "react";
+import { getRandomMediaURL } from "../FuncionesApi/Funciones";
 
-import React,{useEffect, useState} from "react";
+function Comedias() {
+    const [comedia, setComedia] = useState(null);
 
-// Archivo Js de funciones
+    useEffect(() => {
+        getRandomMediaURL("comedia", setComedia);
+    }, []);
 
-import { comediaFnc } from "../FuncionesApi/Funciones";
-
-function Comedia (props){
-
-  const [comedia,setComedia] = useState(null)
-
-  useEffect(()=>{
-    comediaFnc(setComedia)  
-  },[])
-
-  return(
-    <>
-    {comedia != null ? (
-      <img src={comedia} />
-    ) : ("no hay personajes ")}
-    </>
-  )
+    return (
+        <>
+            {comedia != null ? (
+                <img
+                    src={`https://image.tmdb.org/t/p/w500${comedia.poster_path}`}
+                    alt="Serie Poster"
+                    onClick={() => {
+                        window.location.href = `./Movies/${comedia.id}`;
+                    }}
+                />
+            ) : (
+                "No hay comedia "
+            )}
+        </>
+    );
 }
 
-export default Comedia
+export default Comedias;

@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container_main{
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+
+.container{
+  display: flex;
+  gap: 5vh;
+}
+
+@media (max-width: 1000px){
+  .container_main{
+    gap: 20vh;
+  }
+}
+
+@media (max-width: 1000px){
+  .container_main{
+    gap: 10vh;
+  }
+}

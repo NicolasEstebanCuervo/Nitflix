@@ -1,26 +1,28 @@
-// React y hooks
+import React, { useEffect, useState } from "react";
+import { getRandomMediaURL } from "../FuncionesApi/Funciones";
 
-import React,{useEffect, useState} from "react";
+function Animado() {
+    const [animado, setAnimado] = useState(null);
 
-// Archivo Js de funciones
+    useEffect(() => {
+        getRandomMediaURL("animado", setAnimado);
+    }, []);
 
-import { animeFnc } from "../FuncionesApi/Funciones";
-
-function Animado (props){
-
-  const [animes,setAnimes] = useState(null)
-
-  useEffect(()=>{
-    animeFnc(setAnimes)  
-  },[])
-
-  return(
-    <>
-    {animes != null ? (
-      <img src={animes} />
-    ) : ("no hay personajes ")}
-    </>
-  )
+    return (
+        <>
+            {animado != null ? (
+                <img
+                    src={`https://image.tmdb.org/t/p/w500${animado.poster_path}`}
+                    alt="Serie Poster"
+                    onClick={() => {
+                        window.location.href = `./Series/${animado.id}`;
+                    }}
+                />
+            ) : (
+                "No hay animado "
+            )}
+        </>
+    );
 }
 
-export default Animado
+export default Animado;
