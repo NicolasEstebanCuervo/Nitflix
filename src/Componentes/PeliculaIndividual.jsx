@@ -34,7 +34,7 @@ function PeliculaIndividual({ Indicepelicula, id }) {
                             <h5 className="calidad">4K Ultra HD</h5>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            Lorems ipsum dolor sit amet consectetur adipisicing
                             elit. Quo, enim. Dignissimos delectus quidem non
                             soluta? Error quae laudantium iure, saepe debitis
                             quia corporis non laboriosam ab necessitatibus. Vel,
