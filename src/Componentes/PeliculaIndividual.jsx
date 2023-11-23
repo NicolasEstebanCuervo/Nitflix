@@ -29,12 +29,12 @@ function PeliculaIndividual({ Indicepelicula, id }) {
                             <h5 className="valoracion">
                                 {" "}
                                 Valoracion {pelicula.calificacion}{" "}
-                                <i class="bi bi-star-fill"></i>
+                                <i className="bi bi-star-fill"></i>
                             </h5>
                             <h5 className="calidad">4K Ultra HD</h5>
                         </div>
                         <p>
-                            Lorems ipsum dolor sit amet consectetur adipisicing
+                            Lorems ipsum dolors sit amet consectetur adipisicing
                             elit. Quo, enim. Dignissimos delectus quidem non
                             soluta? Error quae laudantium iure, saepe debitis
                             quia corporis non laboriosam ab necessitatibus. Vel,

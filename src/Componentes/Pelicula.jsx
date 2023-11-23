@@ -65,7 +65,7 @@ function Pelicula() {
                 <div className="contenedor_txt_extra">
                     <h5 className="valoracion">
                         {" "}
-                        Valoracion 8 <i class="bi bi-star-fill"></i>
+                        Valoracion 8 <i className="bi bi-star-fill"></i>
                     </h5>
                     <h5 className="año">2023</h5>
                     <h5 className="calidad">4K Ultra HD</h5>
