@@ -525,7 +525,7 @@ h1 {
 .contenedor_galeria_peliculas {
   display: flex;
   height: 430px;
-  width: 70%;
+  width: 100%;
 }
 .contenedor_galeria_peliculas img {
   max-width: 250px;
