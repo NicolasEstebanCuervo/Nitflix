@@ -1,14 +1,7 @@
-// React y hooks
-
 import React, { useState, useRef, useEffect } from "react";
-
-// Librerias
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-
-// Archivos necesarios
 
 import MarioVideo from "../Imagenes/Mario.mp4";
 

@@ -3,8 +3,6 @@ header {
   margin: auto;
   max-width: 1800px;
   margin-top: 30px;
-  
-  // Estilos pelicula y texto de la pelicula
 
   .contenedor_pelicula {
     display: flex;
@@ -56,9 +54,6 @@ header {
     font-size: 23px;
   }
 }
-
-  // Estilos del carrusel
-
   .contenedor_carrusel {
     position: absolute;
     width:100%;
@@ -81,9 +76,6 @@ header {
 
 @media (max-width: 1400px) {
   header {
-
-    // Estilos del texto de la pelicula
-
     .texto_pelicula {
       max-width: 60%;
 
@@ -110,9 +102,6 @@ header {
 
 @media (max-width: 700px) {
   header {
-
-    // Estilos del texto de la pelicula
-
     .texto_pelicula {
 
       .contenedor_imagen{
@@ -129,9 +118,6 @@ header {
 
 @media (max-width: 500px) {
   header {
-
-    // Estilos del texto de la pelicula
-
     .texto_pelicula {
       max-width: 100%;
 
@@ -148,13 +134,10 @@ header {
 
 @media (max-width: 320px) {
   header {
-
-    // Estilos del texto de la pelicula
-
     .texto_pelicula {
 
       .contenedor_imagen{
-        max-width: 50px;
+        max-width: 80px;
       }
     }
   }
@@ -162,9 +145,6 @@ header {
 
 @media (max-width: 200px) {
   header {
-
-    // Estilos del texto de la pelicula
-
     .texto_pelicula {
 
       .contenedor_imagen{

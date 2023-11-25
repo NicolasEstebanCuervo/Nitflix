@@ -36,7 +36,7 @@ export default function PeliculaPage() {
                                 Valoracion {valoration}<i className="bi bi-star-fill"></i>
                             </h5>
                             <h5 className="año">2023</h5>
-                            <h6 className="calidad">4K Ultra HD</h6>
+                            <h5 className="calidad">4K Ultra HD</h5>
                         </div>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing
