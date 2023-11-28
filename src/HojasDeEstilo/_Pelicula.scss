@@ -4,7 +4,7 @@ header {
   max-width: 1800px;
   margin-top: 30px;
 
-  .contenedor_pelicula {
+  .container_movie {
     display: flex;
     justify-content: center;
 
@@ -16,7 +16,7 @@ header {
     }
   }
 
-  .texto_pelicula {
+  .container_text_movie {
     max-width: 40%;
     position: absolute;
     left: 5%;
@@ -30,7 +30,7 @@ header {
       width: 100%;
     }
 
-    .contenedor_txt_extra {
+    .container_txt_extra {
       display: flex;
       align-items: center;
 
@@ -54,7 +54,7 @@ header {
     font-size: 23px;
   }
 }
-  .contenedor_carrusel {
+  .container_carrusel {
     position: absolute;
     width:100%;
     left: 50%;
@@ -76,14 +76,14 @@ header {
 
 @media (max-width: 1400px) {
   header {
-    .texto_pelicula {
+    .container_text_movie {
       max-width: 60%;
 
       img{
         max-width: 250px;
       }
 
-      .contenedor_txt_extra {
+      .container_txt_extra {
         h5 {
           font-size: 3vw;
         }
@@ -102,9 +102,9 @@ header {
 
 @media (max-width: 700px) {
   header {
-    .texto_pelicula {
+    .container_text_movie {
 
-      .contenedor_imagen{
+      .container_image{
         max-width: 150px;
         margin: 0 5vw;
 
@@ -118,10 +118,10 @@ header {
 
 @media (max-width: 500px) {
   header {
-    .texto_pelicula {
+    .container_text_movie {
       max-width: 100%;
 
-      .contenedor_imagen{
+      .container_image{
         max-width: 120px;
       }
 
@@ -134,9 +134,9 @@ header {
 
 @media (max-width: 320px) {
   header {
-    .texto_pelicula {
+    .container_text_movie {
 
-      .contenedor_imagen{
+      .container_image{
         max-width: 80px;
       }
     }
@@ -145,9 +145,9 @@ header {
 
 @media (max-width: 200px) {
   header {
-    .texto_pelicula {
+    .container_text_movie {
 
-      .contenedor_imagen{
+      .container_image{
         max-width: 30px;
       }
     }

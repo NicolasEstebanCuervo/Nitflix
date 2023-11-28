@@ -19,7 +19,7 @@ function Terror() {
                     }}
                 />
             ) : (
-                "No hay comedia "
+                "There are no movies with the category Comedy"
             )}
         </>
     );

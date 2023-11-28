@@ -19,7 +19,7 @@ function Accion() {
                     }}
                 />
             ) : (
-                "No hay accion "
+                "There are no movies with the category Movies"
             )}
         </>
     );

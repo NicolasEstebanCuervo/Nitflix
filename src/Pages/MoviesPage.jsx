@@ -18,7 +18,7 @@ export default function PeliculaPage() {
         <section className="section_pelicula_page">
             <Navegacion />
             <div className="sub_contenedor">
-                <div className="primer_contenedor">
+                <div className="first_container">
                     <img
                         src={
                             movies
@@ -28,10 +28,10 @@ export default function PeliculaPage() {
                         alt=""
                     />
                 </div>
-                <div className="segundo_contenedor">
+                <div className="second_container">
                     <div className="container_textos_page">
                         <h1>{movies && movies.original_title}</h1>
-                        <div className="contenedor_txt_extra">
+                        <div className="container_txt_extra">
                             <h5 className="valoracion">
                                 Valoracion {valoration}<i className="bi bi-star-fill"></i>
                             </h5>

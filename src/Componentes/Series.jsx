@@ -19,7 +19,7 @@ function Series() {
                     }}
                 />
             ) : (
-                "No hay series "
+                "There are no movies with the category Comedy"
             )}
         </>
     );

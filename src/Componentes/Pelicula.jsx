@@ -40,14 +40,14 @@ function Pelicula() {
     };
 
     return (
-        <header id="Proyectos recientes">
-            <div className="contenedor_pelicula">
+        <header>
+            <div className="container_movie">
                 <video autoPlay muted loop>
                     <source src={MarioVideo} type="video/mp4" />
                 </video>
             </div>
-            <div className="texto_pelicula">
-                <div className="contenedor_imagen">
+            <div className="container_text_movie">
+                <div className="container_image">
                     <img
                         src={require("../Imagenes/LetraNitflix.png")}
                         onClick={() => {
@@ -55,7 +55,7 @@ function Pelicula() {
                         }}
                     />
                 </div>
-                <div className="contenedor_txt_extra">
+                <div className="container_txt_extra">
                     <h5 className="valoracion">
                         {" "}
                         Valoracion 8 <i className="bi bi-star-fill"></i>
@@ -75,7 +75,7 @@ function Pelicula() {
                 </p>
             </div>
 
-            <Slider className="contenedor_carrusel" {...settings}>
+            <Slider className="container_carrusel" {...settings}>
                 <img
                     src={require("../Imagenes/Frozen.png")}
                     alt=""

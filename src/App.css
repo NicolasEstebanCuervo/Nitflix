@@ -3,7 +3,7 @@
   color: #fff;
 }
 
-.peliculas{
+.movies{
   display: flex;
   gap: 3vh;
 }
@@ -16,21 +16,21 @@ section{
 }
 
 @media (max-width: 1000px){
-  .peliculas{
+  .movies{
     text-align: center;
   }
 
-  .peliculas h1{
+  .movies h1{
     font-size: 6vw;
   }
 }
 
 @media (max-width: 500px){
-  .peliculas{
+  .movies{
     text-align: center;
   }
 
-  .peliculas h1{
+  .movies h1{
     font-size: 8vw;
   }
 }

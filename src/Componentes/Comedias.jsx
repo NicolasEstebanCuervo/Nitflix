@@ -19,7 +19,7 @@ function Comedias() {
                     }}
                 />
             ) : (
-                "No hay comedia "
+                "There are no movies with the category Comedy"
             )}
         </>
     );

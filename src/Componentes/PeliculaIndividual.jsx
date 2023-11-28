@@ -16,16 +16,16 @@ function PeliculaIndividual({ Indicepelicula, id }) {
     return (
         <>
             {pelicula != null ? (
-                <div className="contenedor_pelicula">
+                <div className="container_movie">
                     <img
                         src={pelicula.imagen}
                         alt={pelicula.original_name}
                     />
-                    <div className="contenedor_textos">
+                    <div className="container_texts">
                         <a className="titulo" href={`/Series/${id}`}>
                             {pelicula.nombre}
                         </a>
-                        <div className="contenedor_txt_extra">
+                        <div className="container_txt_extra">
                             <h5 className="valoracion">
                                 {" "}
                                 Valoracion {pelicula.calificacion}{" "}

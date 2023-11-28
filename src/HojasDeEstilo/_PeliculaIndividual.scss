@@ -3,11 +3,11 @@ h1 {
   font-size: 60px;
 }
 
-.contenedor_pelicula_individual {
+.container_movie_individual {
   padding: 0 2%;
   margin: 10% 0;
 
-  .contenedor_pelicula {
+  .container_movie {
     display: flex;
     margin: 5% auto;
     padding: 2%;
@@ -24,7 +24,7 @@ h1 {
       padding: 0 3vw 0 1vw;
     }
 
-    .contenedor_textos {
+    .container_texts {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -42,7 +42,7 @@ h1 {
         }
       }
 
-      .contenedor_txt_extra {
+      .container_txt_extra {
         margin: 10px 0;
 
         h5 {
@@ -71,7 +71,7 @@ h1 {
       font-size: 45px;
     }
 
-    .contenedor_pelicula {
+    .container_movie {
       box-shadow: none;
       padding: 5% 1%;
 
@@ -80,7 +80,7 @@ h1 {
         padding: 0 0 0 5%;
       }
 
-      .contenedor_textos {
+      .container_texts {
         text-align: left;
 
         .titulo {
@@ -91,7 +91,7 @@ h1 {
           }
         }
 
-        .contenedor_txt_extra {
+        .container_txt_extra {
           margin: 0;
 
           h5 {
@@ -114,12 +114,12 @@ h1 {
   @media (max-width: 900px) {
     width: 90%;
 
-    .contenedor_pelicula {
+    .container_movie {
       img {
         max-height: 300px;
       }
 
-      .contenedor_textos {
+      .container_texts {
         text-align: left;
         padding: 0 1%;
 
@@ -131,7 +131,7 @@ h1 {
           }
         }
 
-        .contenedor_txt_extra {
+        .container_txt_extra {
           margin: 0;
 
           h5 {
@@ -158,12 +158,12 @@ h1 {
       font-size: 35px;
     }
 
-    .contenedor_pelicula {
+    .container_movie {
       img {
         max-height: 300px;
       }
 
-      .contenedor_textos {
+      .container_texts {
         text-align: left;
 
         .titulo {
@@ -174,7 +174,7 @@ h1 {
           }
         }
 
-        .contenedor_txt_extra {
+        .container_txt_extra {
           margin: 0;
 
           h5 {
@@ -201,7 +201,7 @@ h1 {
       font-size: 35px;
     }
 
-    .contenedor_pelicula {
+    .container_movie {
       width: 80%;
       flex-direction: column;
 
@@ -209,7 +209,7 @@ h1 {
         max-width: 250px;
       }
 
-      .contenedor_textos {
+      .container_texts {
         text-align: left;
         gap: 0.5vh;
         padding: 0 7%;
@@ -222,7 +222,7 @@ h1 {
           }
         }
 
-        .contenedor_txt_extra {
+        .container_txt_extra {
           h5 {
             font-size: 15px;
           }
@@ -246,11 +246,11 @@ h1 {
       font-size: 10vw;
     }
 
-    .contenedor_pelicula {
+    .container_movie {
       flex-direction: column;
       width: 95%;
 
-      .contenedor_textos {
+      .container_texts {
         text-align: left;
         gap: 0.5vh;
         padding: 0 7%;
@@ -263,7 +263,7 @@ h1 {
           }
         }
 
-        .contenedor_txt_extra {
+        .container_txt_extra {
           h5 {
             font-size: 4.5vw;
           }
@@ -282,11 +282,11 @@ h1 {
   }
 
   @media (max-width: 300px) {
-    .contenedor_pelicula {
+    .container_movie {
       flex-direction: column;
       width: 95%;
 
-      .contenedor_textos {
+      .container_texts {
         text-align: left;
         gap: 0.5vh;
         padding: 0 7%;
@@ -298,7 +298,7 @@ h1 {
           }
         }
 
-        .contenedor_txt_extra {
+        .container_txt_extra {
           h5 {
             font-size: 5vw;
           }

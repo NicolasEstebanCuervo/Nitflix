@@ -19,14 +19,14 @@ export default function IndexPage() {
             <Pelicula />
 
             <section>
-                <section className="contenedor_pelicula_individual">
+                <section className="container_movie_individual">
                     <h1 id="Semanal">¿Ya viste el hit semanal?</h1>
                     <PeliculaIndividual Indicepelicula="0" id={16286}/>
                 </section>
 
-                <section className="peliculas">
-                    <h1 id="Series">¿Listo para una nueva serie?</h1>
-                    <div className="contenedor_galeria_peliculas ">
+                <section className="movies">
+                    <h1 className="Animado">¿Que tal algo animado?</h1>
+                    <div className="container_gallery_movies">
                         <Series />
                         <Series />
                         <Series />
@@ -37,14 +37,14 @@ export default function IndexPage() {
                     </div>
                 </section>
 
-                <section className="contenedor_pelicula_individual">
+                <section className="container_movie_individual">
                     <h1>Porque viste Friends</h1>
                     <PeliculaIndividual Indicepelicula="1" id={66732} />
                 </section>
 
-                <section className="peliculas">
+                <section className="movies">
                     <h1 id="Comedia">Para no parar de reir</h1>
-                    <div className="contenedor_galeria_peliculas">
+                    <div className="container_gallery_movies">
                         <Comedia />
                         <Comedia />
                         <Comedia />
@@ -55,14 +55,14 @@ export default function IndexPage() {
                     </div>
                 </section>
 
-                <section className="contenedor_pelicula_individual">
+                <section className="container_movie_individual">
                     <h1>Porque viste Son como niños</h1>
                     <PeliculaIndividual Indicepelicula="2" id={107967}/>
                 </section>
 
-                <section className="peliculas">
+                <section className="movies">
                     <h1 className="Animado">¿Que tal algo animado?</h1>
-                    <div className="contenedor_galeria_peliculas">
+                    <div className="container_gallery_movies">
                         <Animado />
                         <Animado />
                         <Animado />
@@ -73,14 +73,14 @@ export default function IndexPage() {
                     </div>
                 </section>
 
-                <section className="contenedor_pelicula_individual">
+                <section className="container_movie_individual">
                     <h1>Porque viste Un show mas</h1>
                     <PeliculaIndividual Indicepelicula="3" id={456}/>
                 </section>
 
-                <section className="peliculas">
+                <section className="movies">
                     <h1 id="Terror">Por si te gusta el terror</h1>
-                    <div className="contenedor_galeria_peliculas">
+                    <div className="container_gallery_movies">
                         <Terror />
                         <Terror />
                         <Terror />
@@ -91,14 +91,14 @@ export default function IndexPage() {
                     </div>
                 </section>
 
-                <section className="contenedor_pelicula_individual">
+                <section className="container_movie_individual">
                     <h1>Porque viste El conjuro</h1>
                     <PeliculaIndividual Indicepelicula="4" id={90462}/>
                 </section>
 
-                <section className="peliculas">
+                <section className="movies">
                     <h1 id="Accion">¿Te gusta la accion?</h1>
-                    <div className="contenedor_galeria_peliculas">
+                    <div className="container_gallery_movies">
                         <Accion />
                         <Accion />
                         <Accion />
@@ -109,7 +109,7 @@ export default function IndexPage() {
                     </div>
                 </section>
 
-                <section className="contenedor_pelicula_individual">
+                <section className="container_movie_individual">
                     <h1>Porque viste Pablo escobar</h1>
                     <PeliculaIndividual Indicepelicula="5" id={63351}/>
                 </section>

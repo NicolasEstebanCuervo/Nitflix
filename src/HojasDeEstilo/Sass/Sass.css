@@ -97,18 +97,18 @@ header {
   max-width: 1800px;
   margin-top: 30px;
 }
-header .contenedor_pelicula {
+header .container_movie {
   display: flex;
   justify-content: center;
 }
-header .contenedor_pelicula video {
+header .container_movie video {
   width: 100%;
   height: auto;
   opacity: 0.4;
   -webkit-clip-path: inset(0 0 15% 0);
           clip-path: inset(0 0 15% 0);
 }
-header .texto_pelicula {
+header .container_text_movie {
   max-width: 40%;
   position: absolute;
   left: 5%;
@@ -116,31 +116,31 @@ header .texto_pelicula {
   transform: translate(0, -50%);
   color: white;
 }
-header .texto_pelicula img {
+header .container_text_movie img {
   cursor: pointer;
   max-width: 300px;
   width: 100%;
 }
-header .texto_pelicula .contenedor_txt_extra {
+header .container_text_movie .container_txt_extra {
   display: flex;
   align-items: center;
 }
-header .texto_pelicula .contenedor_txt_extra h5 {
+header .container_text_movie .container_txt_extra h5 {
   margin: 1%;
   font-size: 25px;
 }
-header .texto_pelicula .contenedor_txt_extra .valoracion {
+header .container_text_movie .container_txt_extra .valoracion {
   color: #90E895;
 }
-header .texto_pelicula .contenedor_txt_extra .calidad {
+header .container_text_movie .container_txt_extra .calidad {
   padding: 5px;
   border: 1px solid gray;
   border-radius: 10px;
 }
-header .texto_pelicula p {
+header .container_text_movie p {
   font-size: 23px;
 }
-header .contenedor_carrusel {
+header .container_carrusel {
   position: absolute;
   width: 100%;
   left: 50%;
@@ -148,59 +148,59 @@ header .contenedor_carrusel {
   transform: translate(-50%, 0);
   display: flex;
 }
-header .contenedor_carrusel img {
+header .container_carrusel img {
   opacity: 0.8;
   margin-right: 10px;
 }
-header .contenedor_carrusel img:hover {
+header .container_carrusel img:hover {
   opacity: 0.5;
   cursor: pointer;
 }
 
 @media (max-width: 1400px) {
-  header .texto_pelicula {
+  header .container_text_movie {
     max-width: 60%;
   }
-  header .texto_pelicula img {
+  header .container_text_movie img {
     max-width: 250px;
   }
-  header .texto_pelicula .contenedor_txt_extra h5 {
+  header .container_text_movie .container_txt_extra h5 {
     font-size: 3vw;
   }
-  header .texto_pelicula .contenedor_txt_extra .calidad {
+  header .container_text_movie .container_txt_extra .calidad {
     padding: 1px;
   }
-  header .texto_pelicula p {
+  header .container_text_movie p {
     font-size: 2vw;
   }
 }
 @media (max-width: 700px) {
-  header .texto_pelicula .contenedor_imagen {
+  header .container_text_movie .container_image {
     max-width: 150px;
     margin: 0 5vw;
   }
-  header .texto_pelicula .contenedor_imagen img {
+  header .container_text_movie .container_image img {
     max-width: 100%;
   }
 }
 @media (max-width: 500px) {
-  header .texto_pelicula {
+  header .container_text_movie {
     max-width: 100%;
   }
-  header .texto_pelicula .contenedor_imagen {
+  header .container_text_movie .container_image {
     max-width: 120px;
   }
-  header .texto_pelicula p {
+  header .container_text_movie p {
     font-size: 2.5vw;
   }
 }
 @media (max-width: 320px) {
-  header .texto_pelicula .contenedor_imagen {
+  header .container_text_movie .container_image {
     max-width: 80px;
   }
 }
 @media (max-width: 200px) {
-  header .texto_pelicula .contenedor_imagen {
+  header .container_text_movie .container_image {
     max-width: 30px;
   }
 }
@@ -220,18 +220,18 @@ header .contenedor_carrusel img:hover {
   width: 80%;
 }
 
-.primer_contenedor {
+.first_container {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.primer_contenedor img {
+.first_container img {
   width: 100%;
   max-width: 430px;
 }
 
-.segundo_contenedor {
+.second_container {
   width: 50%;
 }
 
@@ -240,21 +240,21 @@ header .contenedor_carrusel img:hover {
   font-size: 50px;
   color: #fff;
 }
-.container_textos_page .contenedor_txt_extra {
+.container_textos_page .container_txt_extra {
   display: flex;
   align-items: center;
   gap: 2%;
 }
-.container_textos_page .contenedor_txt_extra h5 {
+.container_textos_page .container_txt_extra h5 {
   font-size: 25px;
   margin: 0 !important;
 }
-.container_textos_page .contenedor_txt_extra .valoracion {
+.container_textos_page .container_txt_extra .valoracion {
   color: #90e895;
   display: flex;
   gap: 0.5vw;
 }
-.container_textos_page .contenedor_txt_extra .calidad {
+.container_textos_page .container_txt_extra .calidad {
   padding: 5px;
   border: 1px solid gray;
   border-radius: 10px;
@@ -281,13 +281,13 @@ button i {
 }
 
 @media (max-width: 1400px) {
-  .primer_contenedor img {
+  .first_container img {
     max-width: 400px;
   }
   .container_textos_page h1 {
     font-size: 45px;
   }
-  .container_textos_page .contenedor_txt_extra h5 {
+  .container_textos_page .container_txt_extra h5 {
     font-size: 20px;
   }
   .container_textos_page p {
@@ -295,7 +295,7 @@ button i {
   }
 }
 @media (max-width: 1200px) {
-  .primer_contenedor img {
+  .first_container img {
     max-width: 380px;
   }
   .container_textos_page p {
@@ -306,7 +306,7 @@ button i {
   .sub_contenedor {
     width: 90%;
   }
-  .primer_contenedor img {
+  .first_container img {
     max-width: 350px;
   }
   .container_textos_page {
@@ -317,13 +317,13 @@ button i {
   }
 }
 @media (max-width: 900px) {
-  .primer_contenedor img {
+  .first_container img {
     max-width: 300px;
   }
   .container_textos_page h1 {
     font-size: 35px;
   }
-  .container_textos_page .contenedor_txt_extra h5 {
+  .container_textos_page .container_txt_extra h5 {
     font-size: 18px;
   }
   .container_textos_page p {
@@ -337,13 +337,13 @@ button i {
   }
 }
 @media (max-width: 800px) {
-  .primer_contenedor img {
+  .first_container img {
     max-width: 280px;
   }
   .container_textos_page h1 {
     font-size: 30px;
   }
-  .container_textos_page .contenedor_txt_extra h5 {
+  .container_textos_page .container_txt_extra h5 {
     font-size: 15px;
   }
   .container_textos_page p {
@@ -355,22 +355,22 @@ button i {
     flex-direction: column;
     gap: 4vh;
   }
-  .primer_contenedor {
+  .first_container {
     width: 80%;
   }
-  .primer_contenedor img {
+  .first_container img {
     max-width: 400px;
   }
-  .segundo_contenedor {
+  .second_container {
     width: 90%;
   }
-  .segundo_contenedor .container_textos_page h1 {
+  .second_container .container_textos_page h1 {
     font-size: 40px;
   }
-  .segundo_contenedor .container_textos_page .contenedor_txt_extra h5 {
+  .second_container .container_textos_page .container_txt_extra h5 {
     font-size: 17px;
   }
-  .segundo_contenedor .container_textos_page p {
+  .second_container .container_textos_page p {
     font-size: 15px;
   }
   button {
@@ -381,16 +381,16 @@ button i {
   }
 }
 @media (max-width: 500px) {
-  .primer_contenedor img {
+  .first_container img {
     max-width: 300px;
   }
-  .segundo_contenedor .container_textos_page h1 {
+  .second_container .container_textos_page h1 {
     font-size: 35px;
   }
-  .segundo_contenedor .container_textos_page .contenedor_txt_extra h5 {
+  .second_container .container_textos_page .container_txt_extra h5 {
     font-size: 15px;
   }
-  .segundo_contenedor .container_textos_page p {
+  .second_container .container_textos_page p {
     font-size: 13px;
   }
   button {
@@ -401,16 +401,16 @@ button i {
   }
 }
 @media (max-width: 400px) {
-  .segundo_contenedor .container_textos_page h1 {
+  .second_container .container_textos_page h1 {
     font-size: 10vw;
   }
-  .segundo_contenedor .container_textos_page .contenedor_txt_extra h5 {
+  .second_container .container_textos_page .container_txt_extra h5 {
     font-size: 5vw;
   }
-  .segundo_contenedor .container_textos_page .contenedor_txt_extra .calidad {
+  .second_container .container_textos_page .container_txt_extra .calidad {
     padding: 1vw;
   }
-  .segundo_contenedor .container_textos_page p {
+  .second_container .container_textos_page p {
     font-size: 4vw;
   }
   button {
@@ -421,13 +421,13 @@ button i {
   }
 }
 @media (max-width: 300px) {
-  .segundo_contenedor .container_textos_page h1 {
+  .second_container .container_textos_page h1 {
     font-size: 12vw;
   }
-  .segundo_contenedor .container_textos_page .contenedor_txt_extra h5 {
+  .second_container .container_textos_page .container_txt_extra h5 {
     font-size: 5vw;
   }
-  .segundo_contenedor .container_textos_page p {
+  .second_container .container_textos_page p {
     font-size: 5vw;
   }
   button {
@@ -441,11 +441,11 @@ h1 {
   font-size: 60px;
 }
 
-.contenedor_pelicula_individual {
+.container_movie_individual {
   padding: 0 2%;
   margin: 10% 0;
 }
-.contenedor_pelicula_individual .contenedor_pelicula {
+.container_movie_individual .container_movie {
   display: flex;
   margin: 5% auto;
   padding: 2%;
@@ -454,248 +454,248 @@ h1 {
   background: #111111;
   box-shadow: 1px -1px 12px 0px rgb(112, 112, 112);
 }
-.contenedor_pelicula_individual .contenedor_pelicula img {
+.container_movie_individual .container_movie img {
   max-width: 360px;
   width: 100%;
   max-height: 360px;
   height: auto;
   padding: 0 3vw 0 1vw;
 }
-.contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos {
+.container_movie_individual .container_movie .container_texts {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
   max-width: 550px;
 }
-.contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .titulo {
+.container_movie_individual .container_movie .container_texts .titulo {
   font-size: 40px;
   color: #fff;
   text-decoration: none;
   transition: font-size 0.1s;
 }
-.contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .titulo:hover {
+.container_movie_individual .container_movie .container_texts .titulo:hover {
   opacity: 0.7;
 }
-.contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra {
+.container_movie_individual .container_movie .container_texts .container_txt_extra {
   margin: 10px 0;
 }
-.contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra h5 {
+.container_movie_individual .container_movie .container_texts .container_txt_extra h5 {
   display: inline;
   margin: 0 5px;
   font-size: 15px;
 }
-.contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra .valoracion {
+.container_movie_individual .container_movie .container_texts .container_txt_extra .valoracion {
   color: #90e895;
 }
-.contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra .calidad {
+.container_movie_individual .container_movie .container_texts .container_txt_extra .calidad {
   padding: 5px;
   border: 1px solid gray;
   border-radius: 10px;
 }
 @media (max-width: 1000px) {
-  .contenedor_pelicula_individual {
+  .container_movie_individual {
     text-align: center;
   }
-  .contenedor_pelicula_individual h1 {
+  .container_movie_individual h1 {
     font-size: 45px;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula {
+  .container_movie_individual .container_movie {
     box-shadow: none;
     padding: 5% 1%;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula img {
+  .container_movie_individual .container_movie img {
     margin: auto;
     padding: 0 0 0 5%;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos {
+  .container_movie_individual .container_movie .container_texts {
     text-align: left;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .titulo {
+  .container_movie_individual .container_movie .container_texts .titulo {
     font-size: 35px;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .titulo:hover {
+  .container_movie_individual .container_movie .container_texts .titulo:hover {
     opacity: 0.7;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra {
+  .container_movie_individual .container_movie .container_texts .container_txt_extra {
     margin: 0;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra h5 {
+  .container_movie_individual .container_movie .container_texts .container_txt_extra h5 {
     font-size: 20px;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra .calidad {
+  .container_movie_individual .container_movie .container_texts .container_txt_extra .calidad {
     padding: 1% 2%;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos p {
+  .container_movie_individual .container_movie .container_texts p {
     font-size: 15px;
     margin: 0;
   }
 }
 @media (max-width: 900px) {
-  .contenedor_pelicula_individual {
+  .container_movie_individual {
     width: 90%;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula img {
+  .container_movie_individual .container_movie img {
     max-height: 300px;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos {
+  .container_movie_individual .container_movie .container_texts {
     text-align: left;
     padding: 0 1%;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .titulo {
+  .container_movie_individual .container_movie .container_texts .titulo {
     font-size: 30px;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .titulo:hover {
+  .container_movie_individual .container_movie .container_texts .titulo:hover {
     opacity: 0.7;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra {
+  .container_movie_individual .container_movie .container_texts .container_txt_extra {
     margin: 0;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra h5 {
+  .container_movie_individual .container_movie .container_texts .container_txt_extra h5 {
     font-size: 2.5vw;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra .calidad {
+  .container_movie_individual .container_movie .container_texts .container_txt_extra .calidad {
     padding: 1% 2%;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos p {
+  .container_movie_individual .container_movie .container_texts p {
     font-size: 2vw;
     margin: 0;
   }
 }
 @media (max-width: 600px) {
-  .contenedor_pelicula_individual {
+  .container_movie_individual {
     width: 95%;
   }
-  .contenedor_pelicula_individual h1 {
+  .container_movie_individual h1 {
     font-size: 35px;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula img {
+  .container_movie_individual .container_movie img {
     max-height: 300px;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos {
+  .container_movie_individual .container_movie .container_texts {
     text-align: left;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .titulo {
+  .container_movie_individual .container_movie .container_texts .titulo {
     font-size: 5vw;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .titulo:hover {
+  .container_movie_individual .container_movie .container_texts .titulo:hover {
     opacity: 0.7;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra {
+  .container_movie_individual .container_movie .container_texts .container_txt_extra {
     margin: 0;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra h5 {
+  .container_movie_individual .container_movie .container_texts .container_txt_extra h5 {
     font-size: 2.5vw;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra .calidad {
+  .container_movie_individual .container_movie .container_texts .container_txt_extra .calidad {
     padding: 1% 2%;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos p {
+  .container_movie_individual .container_movie .container_texts p {
     font-size: 2.5vw;
     margin: 0;
   }
 }
 @media (max-width: 500px) {
-  .contenedor_pelicula_individual {
+  .container_movie_individual {
     width: 95vw;
   }
-  .contenedor_pelicula_individual h1 {
+  .container_movie_individual h1 {
     font-size: 35px;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula {
+  .container_movie_individual .container_movie {
     width: 80%;
     flex-direction: column;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula img {
+  .container_movie_individual .container_movie img {
     max-width: 250px;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos {
+  .container_movie_individual .container_movie .container_texts {
     text-align: left;
     gap: 0.5vh;
     padding: 0 7%;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .titulo {
+  .container_movie_individual .container_movie .container_texts .titulo {
     font-size: 25px;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .titulo:hover {
+  .container_movie_individual .container_movie .container_texts .titulo:hover {
     opacity: 0.7;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra h5 {
+  .container_movie_individual .container_movie .container_texts .container_txt_extra h5 {
     font-size: 15px;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra .calidad {
+  .container_movie_individual .container_movie .container_texts .container_txt_extra .calidad {
     padding: 1% 2%;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos p {
+  .container_movie_individual .container_movie .container_texts p {
     font-size: 15px;
   }
 }
 @media (max-width: 400px) {
-  .contenedor_pelicula_individual {
+  .container_movie_individual {
     width: 95vw;
   }
-  .contenedor_pelicula_individual h1 {
+  .container_movie_individual h1 {
     font-size: 10vw;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula {
+  .container_movie_individual .container_movie {
     flex-direction: column;
     width: 95%;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos {
+  .container_movie_individual .container_movie .container_texts {
     text-align: left;
     gap: 0.5vh;
     padding: 0 7%;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .titulo {
+  .container_movie_individual .container_movie .container_texts .titulo {
     font-size: 8vw;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .titulo:hover {
+  .container_movie_individual .container_movie .container_texts .titulo:hover {
     opacity: 0.7;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra h5 {
+  .container_movie_individual .container_movie .container_texts .container_txt_extra h5 {
     font-size: 4.5vw;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra .calidad {
+  .container_movie_individual .container_movie .container_texts .container_txt_extra .calidad {
     padding: 1% 3%;
     font-size: 4.5vw;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos p {
+  .container_movie_individual .container_movie .container_texts p {
     font-size: 4vw;
   }
 }
 @media (max-width: 300px) {
-  .contenedor_pelicula_individual .contenedor_pelicula {
+  .container_movie_individual .container_movie {
     flex-direction: column;
     width: 95%;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos {
+  .container_movie_individual .container_movie .container_texts {
     text-align: left;
     gap: 0.5vh;
     padding: 0 7%;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .titulo {
+  .container_movie_individual .container_movie .container_texts .titulo {
     font-size: 8.5vw;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .titulo:hover {
+  .container_movie_individual .container_movie .container_texts .titulo:hover {
     opacity: 0.7;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra h5 {
+  .container_movie_individual .container_movie .container_texts .container_txt_extra h5 {
     font-size: 5vw;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos .contenedor_txt_extra .calidad {
+  .container_movie_individual .container_movie .container_texts .container_txt_extra .calidad {
     padding: 1% 2%;
   }
-  .contenedor_pelicula_individual .contenedor_pelicula .contenedor_textos p {
+  .container_movie_individual .container_movie .container_texts p {
     font-size: 5vw;
   }
 }
 
-.contenedor_galeria_peliculas {
+.container_gallery_movies {
   display: flex;
   height: 430px;
   width: 100%;
 }
-.contenedor_galeria_peliculas img {
+.container_gallery_movies img {
   max-width: 250px;
   width: 0%;
   height: auto;
@@ -704,7 +704,7 @@ h1 {
      object-fit: cover;
   transition: 0.5s ease;
 }
-.contenedor_galeria_peliculas img:hover {
+.container_gallery_movies img:hover {
   cursor: pointer;
   width: 60%;
   opacity: 0.5;

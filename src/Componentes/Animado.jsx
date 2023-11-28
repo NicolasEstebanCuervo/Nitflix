@@ -19,7 +19,7 @@ function Animado() {
                     }}
                 />
             ) : (
-                "No hay animado "
+                "There are no movies with the category Series"
             )}
         </>
     );
