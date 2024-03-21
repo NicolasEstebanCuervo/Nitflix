@@ -96,6 +96,7 @@ header {
   margin: auto;
   max-width: 1800px;
   margin-top: 30px;
+  width: 100%;
 }
 header .container_movie {
   display: flex;

@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-
 import MarioVideo from "../Imagenes/Mario.mp4";
 
 function Pelicula() {
@@ -39,6 +38,8 @@ function Pelicula() {
         ],
     };
 
+    const video = require("../Imagenes/LetraNitflix.png");
+
     return (
         <header>
             <div className="container_movie">
@@ -49,7 +50,7 @@ function Pelicula() {
             <div className="container_text_movie">
                 <div className="container_image">
                     <img
-                        src={require("../Imagenes/LetraNitflix.png")}
+                        src={video}
                         onClick={() => {
                             window.location.href = `./Movies/502356`;
                         }}
